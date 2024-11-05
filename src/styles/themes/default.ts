@@ -38,4 +38,4 @@ export const defaultTheme = {
     xsm: '1.2rem',
     xxsm: '1rem'
   }
-}
+} as const

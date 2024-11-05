@@ -26,7 +26,21 @@ body, input, textarea, button {
   font-family: ${({ theme }) => theme.fonts.primary};
   font-weight: 400;
   font-size: ${({ theme }) => theme.sizes.md};
+  line-height: 130%;
+
+  overflow-x: hidden;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 
 `
